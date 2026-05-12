@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Face data and generated cache
+app/faces/
+app/embeddings.pkl
+
+# Downloaded models / large binaries
+app/models/
+*.onnx
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
